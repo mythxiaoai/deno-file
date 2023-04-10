@@ -21,6 +21,7 @@ const fileNameMap = {
   '/partytown-media.js': 'partytown-media.js',
   '/partytown-sandbox-sw.js': 'partytown-sandbox-sw.js',
   '/partytown-sw.js': 'partytown-sw.js',
+  '/shopline-analytics.umd.min.js': 'shopline-analytics.umd.min.js',
 }
 
 async function handleRequest(request: Request): Promise<Response> {
